@@ -6,43 +6,43 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "O que pode ser considerado uma das principais causas da diminuição das abelhas no mundo?  ",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Uso de pesticidas.",
+                afirmacao: "Eles afetam diretamente o sistema nervoso das abelhas, causando desorientação e morte."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "A destruição de habitats.",
+                afirmacao: "O desmatamento e a urbanização reduzem os ambientes naturais onde as abelhas podem prosperar."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Como a queda das abelhas impacta o meio ambiente?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "A redução da polinização.",
+                afirmacao: "Com menos abelhas, muitas plantas têm dificuldade para se reproduzir, o que afeta a biodiversidade."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "O desequilíbrio ecológico.",
+                afirmacao: "A ausência de abelhas pode afetar a cadeia alimentar, prejudicando animais que dependem de plantas polinizadas."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Quais são as soluções mais eficazes para conter a queda das abelhas?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: "Agricultura orgânica.",
+                afirmacao:"A diminuição do uso de produtos químicos reduz os riscos para as abelhas e para o meio ambiente."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "Criação de áreas de conservação.",
+                afirmacao:"Reservas naturais ajudam a preservar os habitats das abelhas e promovem a biodiversidade."
             }
         ]
     }
