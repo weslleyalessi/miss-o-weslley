@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uso de pesticidas.",
-                afirmacao: "Eles afetam diretamente o sistema nervoso das abelhas, causando desorientação e morte."
+                afirmacao: "Os pesticidas afetam diretamente o sistema nervoso das abelhas, causando desorientação e morte."
             },
             {
                 texto: "A destruição de habitats.",
