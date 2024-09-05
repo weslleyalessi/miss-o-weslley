@@ -1,45 +1,63 @@
-:root{
+ROMULO JORGE LEITE PENA5 de jul.
+Segue aqui TODOS os códigos para inserir nos arquivos index.html, style.css e script.js e depois enviar o link do seu repositório da "missão" para a nota da AV1:
+
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Missão Inteligência Artificial</title>
+</head>
+<body>
+    <div class="caixa-principal">
+       
+        <h1 class="titulo">Missão Projeto Inteligência Artificial</h1>
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+style.css
+
+
+:root {
     --cor-fundo: #01080E;
     --cor-principal: #0B0D20 ;
     --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
-}
+  }
 
-body{
+body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+  }
 
-.caixa-principal{
+  .caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
-    max-width: 600px;
     text-align: center;
     padding: 20px;
-}
+  }
 
-h1{
+  h1{
     color: var(--cor-destaque);
-}
-
-.caixa-perguntas{
-    padding-bottom: 10px;
-}
-
-:root{
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
-}
-
-button{
+   }
+   
+  button{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
